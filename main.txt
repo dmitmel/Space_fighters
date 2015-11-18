@@ -1,0 +1,2 @@
+first game = False
+highscore = 295
