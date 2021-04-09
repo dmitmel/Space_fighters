@@ -7,13 +7,13 @@
 
 # Массивы, которые позже станут 2D'шными, для хранения данных о каждой клетке:
 grid = []         # Сетка
-DBFs = []         # Задержка между сдвигом вниз
+DBFs = []         # Задержка между сдвигом вниз (DBF - delay between fall)
 clicks = []       # Клики
 
-s1 = 20                  # Размеры сетки
-s2 = s1 * (50 / s1)
+s1 = 15                  # Кол-во клеток
+s2 = s1 * (50 / s1)      # Размер клетки
 
-barier = True            # Переменная для хранения состояния барьера
+barier = True            # Переменная для хранения состояния барьера (True - 'песок' не будет проваливаться)
 
 brush_size = 1           # Размер кисти
 
@@ -28,7 +28,7 @@ light_blue_col = '#21A4E8'  # Где (голубой)
 blue_col = '#0500B2'        # Сидит (синий)
 purple_col = '#C617FC'      # Фазан (фиолетовый)
 
-sand_col = red_col          # Цвет песочка
+sand_col = red_col          # Цвет 'песочка'
 barier_col1 = yellow_col    # Цвет1 барьера
 barier_col2 = black_col     # Цвет2 барьера
 
@@ -41,16 +41,17 @@ for x in range(s1):     # Конструктор 2D массивов
         DBFs[x].append(0)
         clicks[x].append(False)
         
-def setup():                # Тут, я думаю всё понятно
+def setup():
     global s1, s2
+    # Добавляем 1 к высоте и ширине чтобы отрисовать нижнию/левую границу самой нижней/левой клетки
     size(s2 * s1 + 1, s2 * s1 + 1)
     
 def draw():
     global s1, s2, clicks, DBFs, barier, brush_size, barier_col1, barier_col2, sand_col, black_col, white_col, red_col, orange_col, yellow_col, green_col, light_blue_col, blue_col, purple_col
-    for x in range(s1):         # Пробег по всем клеткам
+    for x in range(s1):
         for y in range(s1):
             
-            if not(mousePressed): clicks[x][y] = False     # Система клика (есть продлжение)
+            if not(mousePressed): clicks[x][y] = False     # Система клика (есть продолжение)
             
             fill(grid[x][y])                               # Графика (Прорисовка, а не анимация)
             if grid[x][y] == white_col: stroke(0)
@@ -77,6 +78,8 @@ def draw():
                     clicks[x][y] = True
             else:
                 clicks[x][y] = False
+                
+            if y == 0 and grid[x][y] !=  white_col: print DBFs[x][y]
             
             if y + 1 < s1 and DBFs[x][y] == 0 and grid[x][y] != white_col:          # Анимация падения:
                 if y + 1 < s1 and grid[x][y + 1] == white_col:                      # Если можно упасть вниз - падаем вниз
