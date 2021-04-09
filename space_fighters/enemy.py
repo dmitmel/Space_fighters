@@ -1,6 +1,8 @@
+# coding=utf8
+
 import bullet
 
-class Enemy1(object):                   
+class Enemy1(object):                   # Враги (тех-объект)
     def __init__(self):
         self.x = 0
         self.y = 0
@@ -13,35 +15,35 @@ class Enemy1(object):
         self.DBS = 0
         self.HBV = self.health
         self.shield = 0
-    def spawn(self,xCord,yCord):    
+    def spawn(self,xCord,yCord):    # Создание врагов
         self.x = xCord
         self.y = yCord
         self.spawned = True
-    def created(self):            
+    def created(self):            # Запрос: существует ли пуля?
         return(self.spawned)
-    def move(self,yCord,spd):          
+    def move(self,yCord,spd):           # Вылет на боевую позицию
         if self.y < yCord:
             self.y += spd
         if self.y == yCord:
             self.CBD = True
-    def show(self, img1, img2):               
+    def show(self, img1, img2):                  # Показываем (в виде картинки) врага
         if self.ani:
             image(img1, self.x, self.y)
         else:
             image(img2, self.x, self.y)
         if frameCount % 20 == 0:
             self.ani = not(self.ani)
-    def posX(self):             
+    def posX(self):               # Запрос координаты по ИКСУ
         return(self.x)
-    def posY(self):               
+    def posY(self):               # Запрос координаты по ИГРЕКУ
         return(self.y)
-    def damage(self, dmg):       
+    def damage(self, dmg):        # Нанисение урона
         if self.CBD:
             self.health -= dmg
             self.shield = 20
-    def getHealth(self):         
+    def getHealth(self):          # Запрос жизней
         return(self.health)
-    def showHealth(self):      
+    def showHealth(self):         # Поазываем примоугольник с жызнями
         noStroke()
         fill('#E82D0C')
         rectMode(CENTER)
@@ -58,7 +60,7 @@ class Enemy1(object):
             stroke('#1A8E13')
             noFill()
             ellipse(self.x, self.y, 150, 150)
-    def shoot(self, ary):      
+    def shoot(self, ary):              # Стрельба у врагов
         if self.DBS > 0:
             self.DBS -= 1
         if frameCount % self.DBA == 0 and self.DBS == 0:    
@@ -68,3 +70,4 @@ class Enemy1(object):
                 ary.append(b)
                 self.DBA = int(random(40, 60))
                 self.DBS = 20
+
