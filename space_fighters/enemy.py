@@ -1,9 +1,6 @@
-#!/usr/local/bin/python
-# -*- coding: utf-8 -*-
-
 import bullet
 
-class Enemy1(object):                   # Враги (тех-объект)
+class Enemy1(object):                   
     def __init__(self):
         self.x = 0
         self.y = 0
@@ -16,35 +13,35 @@ class Enemy1(object):                   # Враги (тех-объект)
         self.DBS = 0
         self.HBV = self.health
         self.shield = 0
-    def spawn(self,xCord,yCord):    # Создание врагов
+    def spawn(self,xCord,yCord):    
         self.x = xCord
         self.y = yCord
         self.spawned = True
-    def created(self):            # Запрос: существует ли пуля?
+    def created(self):            
         return(self.spawned)
-    def move(self,yCord,spd):           # Вылет на боевую позицию
+    def move(self,yCord,spd):          
         if self.y < yCord:
             self.y += spd
         if self.y == yCord:
             self.CBD = True
-    def show(self, img1, img2):                  # Показываем (в виде картинки) врага
+    def show(self, img1, img2):               
         if self.ani:
             image(img1, self.x, self.y)
         else:
             image(img2, self.x, self.y)
         if frameCount % 20 == 0:
             self.ani = not(self.ani)
-    def posX(self):               # Запрос координаты по ИКСУ
+    def posX(self):             
         return(self.x)
-    def posY(self):               # Запрос координаты по ИГРЕКУ
+    def posY(self):               
         return(self.y)
-    def damage(self, dmg):        # Нанисение урона
+    def damage(self, dmg):       
         if self.CBD:
             self.health -= dmg
             self.shield = 20
-    def getHealth(self):          # Запрос жизней
+    def getHealth(self):         
         return(self.health)
-    def showHealth(self):         # Поазываем примоугольник с жызнями
+    def showHealth(self):      
         noStroke()
         fill('#E82D0C')
         rectMode(CENTER)
@@ -61,7 +58,7 @@ class Enemy1(object):                   # Враги (тех-объект)
             stroke('#1A8E13')
             noFill()
             ellipse(self.x, self.y, 150, 150)
-    def shoot(self, ary):              # Стрельба у врагов
+    def shoot(self, ary):      
         if self.DBS > 0:
             self.DBS -= 1
         if frameCount % self.DBA == 0 and self.DBS == 0:    
@@ -71,4 +68,3 @@ class Enemy1(object):                   # Враги (тех-объект)
                 ary.append(b)
                 self.DBA = int(random(40, 60))
                 self.DBS = 20
-

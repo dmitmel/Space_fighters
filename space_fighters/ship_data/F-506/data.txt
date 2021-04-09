@@ -1,0 +1,10 @@
+armor = 0
+gun level = 5
+accseleration = 0.02
+max speed = 2.5
+purshared = true
+color1 = #D10000
+color2 = #FFE131
+color3 = None
+name = F-506
+gun type = simple blaster

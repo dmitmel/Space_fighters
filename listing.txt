@@ -1,0 +1,207 @@
+Permissions  Size User    Group Date Modified Name
+drwxr-xr-x      - dmitmel staff  9 Apr 17:49  ./
+drwxr-xr-x      - dmitmel staff  9 Apr 17:45  ├── easy_controls/
+.rw-r--r--    164 dmitmel staff 21 Nov  2015  │  ├── easy_controls.py
+.rw-r--r--    720 dmitmel staff 14 Nov  2015  │  ├── easy_controls.pyde
+.rw-r--r--  1,2Ki dmitmel staff 21 Nov  2015  │  ├── ellipse_button.py
+.rw-r--r--  1,4Ki dmitmel staff 21 Nov  2015  │  ├── rect_button.py
+.rw-r--r--     48 dmitmel staff 14 Nov  2015  │  ├── sketch.properties
+.rw-r--r--  2,8Ki dmitmel staff 21 Nov  2015  │  └── text_button.py
+drwxr-xr-x      - dmitmel staff  9 Apr 17:49  ├── game_of_life/
+.rw-r--r--  4,5Ki dmitmel staff 12 Jun  2017  │  ├── ConwayLife.java
+.rw-r--r--  4,6Ki dmitmel staff  8 May  2016  │  ├── game_of_life.pyde
+.rw-r--r--     48 dmitmel staff 29 Nov  2015  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  ├── GoITeens/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson01/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── AngryBirdsLikeGame/
+.rw-r--r--    929 dmitmel staff 12 Jun  2017  │  │  │  ├── AngryBirdsLikeGame.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── MyVersion/
+.rw-r--r--  1,1Ki dmitmel staff 12 Jun  2017  │  │     ├── MyVersion.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │     └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson02/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── Gravity/
+.rw-r--r--  3,0Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Gravity.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── MyVersion/
+.rw-r--r--  4,2Ki dmitmel staff 12 Jun  2017  │  │  │  ├── MyVersion.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── Pool/
+.rw-r--r--  3,4Ki dmitmel staff 12 Jun  2017  │  │     ├── Pool.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │     └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson03/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── Maze/
+.rw-r--r--  4,0Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Maze.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── MazeAuroFind/
+.rw-r--r--  4,5Ki dmitmel staff 12 Jun  2017  │  │     ├── MazeAuroFind.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │     └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson04/
+drwxr-xr-x      - dmitmel staff  9 Apr 17:45  │  │  ├── MazeFromFile/
+.rw-r--r--  2,8Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Maze.py
+.rw-r--r--    528 dmitmel staff 12 Jun  2017  │  │  │  ├── maze.txt
+.rw-r--r--  2,1Ki dmitmel staff 12 Jun  2017  │  │  │  ├── MazeFromFile.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │  │  ├── sketch.properties
+.rw-r--r--    341 dmitmel staff 12 Jun  2017  │  │  │  └── Traveller.py
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── Queens/
+.rw-r--r--  1,1Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Queens.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── QueensClass/
+.rw-r--r--    530 dmitmel staff 12 Jun  2017  │  │     ├── QueensClass.pyde
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │     └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson05/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── MazeGame/
+.rw-r--r--    761 dmitmel staff 12 Jun  2017  │  │     ├── Brick32.png
+.rw-r--r--  6,6Ki dmitmel staff 12 Jun  2017  │  │     ├── Chest32.gif
+.rw-r--r--  2,9Ki dmitmel staff 12 Jun  2017  │  │     ├── Maze.py
+.rw-r--r--    528 dmitmel staff 12 Jun  2017  │  │     ├── maze.txt
+.rw-r--r--  1,0Ki dmitmel staff 12 Jun  2017  │  │     ├── MazeGame.pyde
+.rw-r--r--  1,5Ki dmitmel staff 12 Jun  2017  │  │     ├── Okay32.png
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │     ├── sketch.properties
+.rw-r--r--  2,3Ki dmitmel staff 12 Jun  2017  │  │     └── Troll32.png
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson06/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── MazeGamePlayers/
+.rw-r--r--    761 dmitmel staff 12 Jun  2017  │  │     ├── Brick32.png
+.rw-r--r--  6,6Ki dmitmel staff 12 Jun  2017  │  │     ├── Chest32.gif
+.rw-r--r--  3,7Ki dmitmel staff 12 Jun  2017  │  │     ├── Maze.py
+.rw-r--r--    528 dmitmel staff 12 Jun  2017  │  │     ├── maze.txt
+.rw-r--r--  1,6Ki dmitmel staff 12 Jun  2017  │  │     ├── MazeGamePlayers.pyde
+.rw-r--r--  1,5Ki dmitmel staff 12 Jun  2017  │  │     ├── Okay32.png
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │     ├── sketch.properties
+.rw-r--r--  2,3Ki dmitmel staff 12 Jun  2017  │  │     └── Troll32.png
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson07/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── MazeGameAutoGenerate/
+.rw-r--r--    761 dmitmel staff 12 Jun  2017  │  │  │  ├── Brick32.png
+.rw-r--r--  6,6Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Chest32.gif
+.rw-r--r--  4,0Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Maze.py
+.rw-r--r--  2,7Ki dmitmel staff 12 Jun  2017  │  │  │  ├── MazeGameAutoGenerate.pyde
+.rw-r--r--  3,9Ki dmitmel staff 12 Jun  2017  │  │  │  ├── MazeGen.py
+.rw-r--r--  1,5Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Okay32.png
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │  │  ├── sketch.properties
+.rw-r--r--  2,3Ki dmitmel staff 12 Jun  2017  │  │  │  └── Troll32.png
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── MazeGameLeftHandAlgorythm/
+.rw-r--r--    761 dmitmel staff 12 Jun  2017  │  │     ├── Brick32.png
+.rw-r--r--  6,6Ki dmitmel staff 12 Jun  2017  │  │     ├── Chest32.gif
+.rw-r--r--  3,6Ki dmitmel staff 12 Jun  2017  │  │     ├── Maze.py
+.rw-r--r--    528 dmitmel staff 12 Jun  2017  │  │     ├── maze.txt
+.rw-r--r--  2,5Ki dmitmel staff 12 Jun  2017  │  │     ├── MazeGameLeftHandAlgorythm.pyde
+.rw-r--r--  1,5Ki dmitmel staff 12 Jun  2017  │  │     ├── Okay32.png
+.rw-r--r--     46 dmitmel staff 12 Jun  2017  │  │     ├── sketch.properties
+.rw-r--r--  2,3Ki dmitmel staff 12 Jun  2017  │  │     └── Troll32.png
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson09/
+.rw-r--r--  4,3Ki dmitmel staff 12 Jun  2017  │  │  └── HOMEWORK.md
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson10/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── Life/
+.rw-r--r--  3,0Ki dmitmel staff 12 Jun  2017  │  │  │  ├── Life.pde
+.rw-r--r--     48 dmitmel staff 12 Jun  2017  │  │  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── LifeByDima/
+.rw-r--r--  4,5Ki dmitmel staff 12 Jun  2017  │  │     └── ConwayLife.java
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson11/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  ├── SpamClient/
+.rw-r--r--    278 dmitmel staff 12 Jun  2017  │  │  │  └── SpamClient.pde
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── SpamServer/
+.rw-r--r--    983 dmitmel staff 12 Jun  2017  │  │     └── SpamServer.pde
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  ├── Lesson12/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │  └── GraphBuild/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │     ├── .idea/
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │     │  ├── copyright/
+.rw-r--r--     74 dmitmel staff 12 Jun  2017  │  │     │  │  └── profiles_settings.xml
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │     │  ├── libraries/
+.rw-r--r--    198 dmitmel staff 12 Jun  2017  │  │     │  │  └── core.xml
+.rw-r--r--     10 dmitmel staff 12 Jun  2017  │  │     │  ├── .name
+.rw-r--r--    686 dmitmel staff 12 Jun  2017  │  │     │  ├── compiler.xml
+.rw-r--r--    159 dmitmel staff 12 Jun  2017  │  │     │  ├── encodings.xml
+.rw-r--r--  1,2Ki dmitmel staff 12 Jun  2017  │  │     │  ├── misc.xml
+.rw-r--r--    260 dmitmel staff 12 Jun  2017  │  │     │  ├── modules.xml
+.rw-r--r--   36Ki dmitmel staff 12 Jun  2017  │  │     │  └── workspace.xml
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │     ├── lib/
+.rw-r--r--  619Ki dmitmel staff 12 Jun  2017  │  │     │  └── core.jar
+drwxr-xr-x      - dmitmel staff 12 Jun  2017  │  │     ├── src/
+.rw-r--r--  1,0Ki dmitmel staff 12 Jun  2017  │  │     │  └── Main.java
+.rw-r--r--    485 dmitmel staff 12 Jun  2017  │  │     └── GraphBuild.iml
+.rw-r--r--    120 dmitmel staff 12 Jun  2017  │  ├── .gitignore
+.rw-r--r--  1,1Ki dmitmel staff 12 Jun  2017  │  ├── LICENSE
+.rw-r--r--     42 dmitmel staff 12 Jun  2017  │  └── README.md
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  ├── libraries/
+drwxr-xr-x      - dmitmel staff  8 Dec  2016  ├── maze_generator/
+.rw-r--r--  5,9Ki dmitmel staff  8 Dec  2016  │  ├── maze_generator.pyde
+.rw-r--r--     48 dmitmel staff 19 Nov  2015  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff  9 Apr 17:44  ├── pong/
+.rw-r--r--@  65Ki dmitmel staff 21 Nov  2015  │  ├── icon.ico
+.rw-r--r--@  32Ki dmitmel staff 21 Nov  2015  │  ├── icon.png
+.rw-r--r--@ 7,3Ki dmitmel staff 28 Sep  2015  │  ├── pong.pyde
+.rw-r--r--     48 dmitmel staff 19 Sep  2015  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  ├── ROT13_decoder/
+.rw-r--r--  2,4Ki dmitmel staff 13 Oct  2015  │  ├── ROT13_decoder.pyde
+.rw-r--r--     48 dmitmel staff 12 Oct  2015  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff  8 Dec  2016  ├── sand_effect/
+.rw-r--r--  5,7Ki dmitmel staff  8 Dec  2016  │  ├── sand_effect.pyde
+.rw-r--r--     48 dmitmel staff 16 Nov  2015  │  └── sketch.properties
+drwxr-xr-x      - dmitmel staff  9 Apr 17:57  ├── space_fighters/
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  ├── data/
+.rw-r--r--  101Ki dmitmel staff  8 Nov  2015  │  │  └── AgencyFB-Reg-48.vlw
+drwxr-xr-x      - dmitmel staff 31 Jan  2017  │  ├── screenshots/
+.rw-r--r--@  18Ki dmitmel staff 18 Nov  2015  │  │  ├── space_fighters 29823.36.18.11. 2015.png
+.rw-r--r--@  19Ki dmitmel staff 31 Jan  2017  │  │  ├── space_fighters 67458.3.31.1. .2017.png
+.rw-r--r--@  15Ki dmitmel staff 31 Jan  2017  │  │  ├── space_fighters 71151.6.31.1. .2017.png
+.rw-r--r--@  15Ki dmitmel staff 31 Jan  2017  │  │  └── space_fighters 72336.7.31.1. .2017.png
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  ├── ship_data/
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  │  └── F-506/
+.rw-r--r--    173 dmitmel staff 21 Nov  2015  │  │     ├── data.txt
+.rw-r--r--@ 2,0Ki dmitmel staff 21 Nov  2015  │  │     ├── ship_1.png
+.rw-r--r--@ 2,0Ki dmitmel staff 21 Nov  2015  │  │     └── ship_2.png
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  ├── textures/
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  │  ├── buttons/
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  │  │  ├── pressed/
+.rw-r--r--    721 dmitmel staff 14 Nov  2015  │  │  │  │  ├── exit_button.png
+.rw-r--r--    874 dmitmel staff 14 Nov  2015  │  │  │  │  ├── fps_button.png
+.rw-r--r--    593 dmitmel staff 14 Nov  2015  │  │  │  │  └── resume_button.png
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  │  │  └── unpressed/
+.rw-r--r--    666 dmitmel staff 14 Nov  2015  │  │  │     ├── exit_button.png
+.rw-r--r--    887 dmitmel staff 14 Nov  2015  │  │  │     ├── fps_button.png
+.rw-r--r--@   531 dmitmel staff 21 Nov  2015  │  │  │     └── resume_button.png
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  │  └── objects/
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  │     ├── backgrounds/
+.rw-r--r--  621Ki dmitmel staff  8 Nov  2015  │  │     │  ├── background1.jpg
+.rw-r--r--  630Ki dmitmel staff  8 Nov  2015  │  │     │  ├── background2.jpg
+.rw-r--r--  1,9Mi dmitmel staff  8 Nov  2015  │  │     │  ├── background3.jpg
+.rw-r--r--  874Ki dmitmel staff  8 Nov  2015  │  │     │  ├── background4.jpg
+.rw-r--r--  665Ki dmitmel staff  8 Nov  2015  │  │     │  └── background5.jpg
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  │  │     ├── explode/
+.rw-r--r--  3,8Ki dmitmel staff 10 Nov  2015  │  │     │  ├── exlp_6.png
+.rw-r--r--  1,6Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_1.png
+.rw-r--r--  2,2Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_2.png
+.rw-r--r--  2,8Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_3.png
+.rw-r--r--  3,2Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_4.png
+.rw-r--r--  3,6Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_5.png
+.rw-r--r--  4,0Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_6.png
+.rw-r--r--  4,0Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_7.png
+.rw-r--r--  4,2Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_8.png
+.rw-r--r--  4,4Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_9.png
+.rw-r--r--  4,4Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_10.png
+.rw-r--r--  4,4Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_11.png
+.rw-r--r--  4,4Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_12.png
+.rw-r--r--  4,4Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_13.png
+.rw-r--r--  4,4Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_14.png
+.rw-r--r--  4,3Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_15.png
+.rw-r--r--  4,2Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_16.png
+.rw-r--r--  4,1Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_17.png
+.rw-r--r--  3,9Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_18.png
+.rw-r--r--  3,7Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_19.png
+.rw-r--r--  3,3Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_20.png
+.rw-r--r--  2,7Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_21.png
+.rw-r--r--  1,8Ki dmitmel staff 10 Nov  2015  │  │     │  ├── expl_22.png
+.rw-r--r--    999 dmitmel staff 10 Nov  2015  │  │     │  ├── expl_23.png
+.rw-r--r--   75Ki dmitmel staff 10 Nov  2015  │  │     │  └── explosions.png
+.rw-r--r--  6,1Ki dmitmel staff  5 Nov  2015  │  │     ├── enemy_1.png
+.rw-r--r--  4,6Ki dmitmel staff  5 Nov  2015  │  │     ├── enemy_2.png
+.rw-r--r--  2,1Ki dmitmel staff  7 Nov  2015  │  │     ├── health_bar.png
+.rw-r--r--@ 1,7Ki dmitmel staff 12 Oct  2015  │  │     ├── ship_1.png
+.rw-r--r--  1,7Ki dmitmel staff 12 Oct  2015  │  │     └── ship_2.png
+.rw-r--r--    779 dmitmel staff 16 Dec  2017  │  ├── bullet.py
+.rw-r--r--     25 dmitmel staff  8 Nov  2015  │  ├── config.txt
+.rw-r--r--  2,1Ki dmitmel staff 16 Dec  2017  │  ├── enemy.py
+.rw-r--r--@    37 dmitmel staff 21 Nov  2015  │  ├── main.txt
+.rw-r--r--     48 dmitmel staff 15 Nov  2015  │  ├── sketch.properties
+.rw-r--r--  8,1Ki dmitmel staff 16 Dec  2017  │  └── space_fighters.pyde
+drwxr-xr-x      - dmitmel staff  2 Jun  2016  └── tools/
