@@ -1,5 +1,6 @@
 import easy_controls as ec
-buttons = [ec.Text_button(), ec.Rect_button(), ec.Ellipse_button(), ec.Image_button()]
+# buttons = [ec.Text_button(), ec.Rect_button(), ec.Ellipse_button(), ec.Image_button()]
+buttons = [ec.Text_button(), ec.Rect_button(), ec.Ellipse_button()]
 click = False
 
 def setup():
